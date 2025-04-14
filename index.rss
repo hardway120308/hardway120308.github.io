@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Mysite</title><link></link><description>My Articles and Notes</description><pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate><lastBuildDate>Mon, 14 Apr 2025 12:40:19 GMT</lastBuildDate><generator>marmite</generator><item><title>Welcome to Marmite</title><link>/welcome.html</link><guid>/welcome.html</guid><pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate><source url="">index</source><content:encoded><![CDATA[<!-- Content Injected to every content markdown header -->
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>鵜鶘生產車間</title><link></link><description>文章與紀錄</description><pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate><lastBuildDate>Mon, 14 Apr 2025 13:07:24 GMT</lastBuildDate><generator>marmite</generator><item><title>Welcome to Marmite</title><link>/welcome.html</link><guid>/welcome.html</guid><pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate><source url="">index</source><content:encoded><![CDATA[<!-- Content Injected to every content markdown header -->
 <p>This is your first post!</p>
 <h2><a href="#edit-this-content" aria-hidden="true" class="anchor" id="edit-this-content"></a>Edit this content</h2>
 <p>edit on <code>content/{date}-welcome.md</code></p>
@@ -11,5 +11,15 @@
 <p>or edit the templates to create a custom layout</p>
 <h2><a href="#deploy-your-site" aria-hidden="true" class="anchor" id="deploy-your-site"></a>Deploy your site</h2>
 <p>read more on <a href="https://rochacbruno.github.io/marmite">marmite documentation</a></p>
+<!-- Content Injected to every content markdown footer -->
+]]></content:encoded></item><item><title>test</title><link>/test.html</link><guid>/test.html</guid><pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate><source url="">index</source><content:encoded><![CDATA[<!-- Content Injected to every content markdown header -->
+<hr />
+<h2><a href="#date-2024-10-25-tags-helloworld" aria-hidden="true" class="anchor" id="date-2024-10-25-tags-helloworld"></a>date: 2024-10-25
+tags: hello,world</h2>
+<h1><a href="#hello-world" aria-hidden="true" class="anchor" id="hello-world"></a>Hello World</h1>
+<p>Hello, this is my first post on my new blog generated
+by Marmite<a href="https://github.com/rochacbruno/marmite">1</a>, a very simple to use blog generator.</p>
+<p>I can write full CommonMark and GFM Markdown.</p>
+<p>Emojis 😄</p>
 <!-- Content Injected to every content markdown footer -->
 ]]></content:encoded></item></channel></rss>
