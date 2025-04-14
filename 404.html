@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
     <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="./static/favicon.ico">
@@ -7,13 +7,14 @@
     <meta name="color-scheme" content="light dark" />
     <meta name="generator" content="Marmite" />
     
-<meta property="og:title" content="Page not found">
+<meta property="og:title" content="Not Found">
 
-<meta property="og:description" content=" :/">
+<meta property="og:description" content="
+">
 
 
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="Home">
+<meta property="og:site_name" content="鵜鶘生產車間">
 
 
 
@@ -26,13 +27,14 @@
         "@id": "/404.html"
     },
     "url": "/404.html",
-    "headline": "Page not found",
-    "description": " :/",
+    "headline": "Not Found",
+    "description": "
+",
     
     
     "publisher": {
         "@type": "Organization",
-        "name": "Home",
+        "name": "鵜鶘生產車間",
         "logo": {
             "@type": "ImageObject",
             "url": "/"
@@ -43,9 +45,11 @@
 </script>
 
 
-    <title>Page not found | Home</title>
+    <title>Not Found | 鵜鶘生產車間</title>
     <link rel="stylesheet" type="text/css" href="./static/pico.min.css">
     <link rel="stylesheet" type="text/css" href="./static/marmite.css">
+    
+    <link rel="stylesheet" type="text/css" href="./static/colorschemes/nord.css">
     
     <link rel="stylesheet" type="text/css" href="./static/custom.css">
     
@@ -54,6 +58,9 @@
 
 
     <link rel="alternate" type="application/rss+xml" title="index" href="index.rss">
+    <link rel="alternate" type="application/rss+xml" title="tag: world" href="tag-world.rss">
+    <link rel="alternate" type="application/rss+xml" title="tag: hello" href="tag-hello.rss">
+    <link rel="alternate" type="application/rss+xml" title="year: 2025" href="archive-2025.rss">
     
 
     
@@ -62,6 +69,11 @@
 </head>
 <body>
     
+    <div class="container-fluid announcement-wrapper">
+        <div class="announcement"><!-- 增加頭頂宣告 -->
+</div>
+    </div>
+    
     <main class="container">
         
         <header class="header-content">
@@ -69,8 +81,8 @@
                 <ul class="header-name">
                     <li>
                         <hgroup>
-                            <h2><a href="./" class="contrast">Home</a></h2>
-                            
+                            <h2><a href="./" class="contrast">鵜鶘生產車間</a></h2>
+                             <p>文章與紀錄</p> 
                         </hgroup>
                     </li>
                 </ul>
@@ -104,9 +116,21 @@
                     
                     <li><span class="theme-toggle secondary" title="dark mode">&#9789;</span></li>
                     
+                    <li><a href="#" id="search-toggle" class="secondary" title="Search (Ctrl + Shift + F)"> <span class="search-txt">Search</span><span class="search-magnifier"></span></a></li>
+                    
                     <div class="underline"></div>
                 </ul>
             </nav>
+            
+            <div class="marmite-background-overlay" id="overlay-close"></div>
+            <div class="marmite-search-bar hidden">
+                <span></span>
+                <button class="marmite-close-button" id="search-close">X</button>
+                <input placeholder="Search" id="marmite-search-input" />
+                <div class="marmite-search-bar-result">
+                    <ul id="marmite-search-bar-result"></ul>
+                </div>
+            </div>
             
         </header>
         
@@ -120,29 +144,33 @@
   
 
 
-<div class="content-title" id="title">
-    <h1>Page not found</h1> 
-    
-
-
-<span class="content-date">
-    <small></small>
-</span>
-
-</div>
-
   
 
-  <div class="content-html">Page not found :/</div>
+  <div class="content-html"><h1><a href="#not-found" aria-hidden="true" class="anchor" id="not-found"></a>Not Found</h1>
+</div>
   
 </article>
 
 
 
 
-
-
-
+    <article><h5><a href="#評論" aria-hidden="true" class="anchor" id="評論"></a>評論</h5>
+<script src="https://giscus.app/client.js"
+        data-repo="hardway120308/hardway120308.github.io"
+        data-repo-id="R_kgDOOZVe-A"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOOZVe-M4CpFU7"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-TW"
+        crossorigin="anonymous"
+        async>
+</script>
+</article>
 
 
 
@@ -157,6 +185,8 @@
 
     <script src="./static/marmite.js"></script>
     <script src="./static/custom.js"></script>
+    
+    <script type="module" src="./static/search.js"></script>
     
     
     
