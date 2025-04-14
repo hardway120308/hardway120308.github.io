@@ -1,16 +1,16 @@
 {
   "marmite_version": "0.2.5",
-  "posts": 2,
-  "pages": 1,
-  "generated_at": "2025-04-14 21:07:24.011325898 +08:00",
-  "timestamp": 1744636044,
-  "elapsed_time": 0.041603699,
+  "posts": 0,
+  "pages": 0,
+  "generated_at": "2025-04-14 21:15:35.587108381 +08:00",
+  "timestamp": 1744636535,
+  "elapsed_time": 0.0199134,
   "config": {
-    "name": "鵜鶘生產車間",
-    "tagline": "文章與紀錄",
+    "name": "Home",
+    "tagline": "",
     "url": "",
     "footer": "<div>Powered by <a href=\"https://github.com/rochacbruno/marmite\">Marmite</a> | <small><a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">CC-BY_NC-SA</a></small></div>",
-    "language": "",
+    "language": "en",
     "pagination": 10,
     "pages_title": "Pages",
     "tags_title": "Tags",
@@ -18,12 +18,12 @@
     "archives_title": "Archive",
     "archives_content_title": "Posts from '$year'",
     "streams_title": "Streams",
-    "streams_content_title": "",
+    "streams_content_title": "Posts from '$stream'",
     "default_author": "",
     "authors_title": "Authors",
-    "enable_search": true,
-    "enable_related_content": false,
-    "search_title": "",
+    "enable_search": false,
+    "enable_related_content": true,
+    "search_title": "Search",
     "content_path": "content",
     "site_path": "",
     "templates_path": "templates",
@@ -47,11 +47,9 @@
         "authors.html"
       ]
     ],
-    "extra": {
-      "colorscheme": "nord"
-    },
+    "extra": null,
     "authors": {},
-    "toc": true,
+    "toc": false,
     "json_feed": false
   }
 }
