@@ -31,7 +31,8 @@ menu:
     - - 關於我
       - about.html
 extra:
-    colorscheme: toggle
+    colorscheme: nord
+    colorscheme_toggle: true
 authors: {}
 toc: true
 json_feed: false
