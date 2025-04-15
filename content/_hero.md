@@ -1,5 +1,3 @@
-##### Welcome to Marmite
+##### 這個網站
 
-Marmite is a static site generator written in Rust.
-edit `content/_hero.md` to change this content.
-remove the file to disable the hero section.
+隨手備忘、記錄自己。

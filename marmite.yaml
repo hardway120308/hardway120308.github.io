@@ -1,7 +1,7 @@
 name: 鵜鶘生產車間
 tagline: 文章與紀錄
 url: ""
-footer: <div>Powered by <a href="https://github.com/rochacbruno/marmite">Marmite</a> | <small><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY_NC-SA</a></small></div>
+footer: ""
 language: ""
 pagination: 10
 pages_title: Pages
@@ -26,14 +26,12 @@ banner_image: ""
 logo_image: ""
 default_date_format: "%b %e, %Y"
 menu:
-    - - Tags
+    - - 標籤
       - tags.html
-    - - Archive
-      - archive.html
-    - - Authors
-      - authors.html
+    - - 關於我
+      - about.html
 extra:
-    colorscheme: nord
+    colorscheme: toggle
 authors: {}
 toc: true
 json_feed: false
