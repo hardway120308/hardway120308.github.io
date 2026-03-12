@@ -1,11 +1,11 @@
 ---
-title: 使用Floyd-Warshall和動態規劃求解一個AtCoder問題
-description: 本題本質是動態規劃中的0-1背包問題的變體，再加上一點圖論基礎
+title: 背包問題的變體：使用動態規劃求解一個AtCoder問題
+description: 本題本質是動態規劃中的0-1背包問題的變體，透過修改狀態轉移方程以及循環的操作方式可以解答
 author: 仿生鵜鶘
-tags: 動態規劃,圖論,演算法,AtCoder
+tags: 動態規劃,演算法,AtCoder
 ---
 
-# 使用Floyd-Warshall和動態規劃求解一個AtCoder問題
+# 背包問題的變體：使用動態規劃求解一個AtCoder問題
 
 [問題連結：D - Package Delivery](<[321](https://atcoder.jp/contests/awc0023/tasks/awc0023_d)>)
 
